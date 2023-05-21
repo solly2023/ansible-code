@@ -1,0 +1,6 @@
+---
+# tasks file for apache
+- name: Install Apache
+  yum:
+    name: "{{ pkg_name }}"
+    state: present

@@ -1,0 +1,309 @@
+2023-05-21 17:06:25,713 p=2787 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. 
+Current version: 3.7.16 (default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature 
+will be removed from ansible-core in version 2.12. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:06:43,937 p=2787 u=ec2-user n=ansible | 3.82.226.125 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 17:06:57,109 p=2787 u=ec2-user n=ansible |  [ERROR]: User interrupted execution
+
+2023-05-21 17:07:26,487 p=2812 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. 
+Current version: 3.7.16 (default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature 
+will be removed from ansible-core in version 2.12. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:07:27,517 p=2812 u=ec2-user n=ansible | 3.82.226.125 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 17:07:37,415 p=2830 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. 
+Current version: 3.7.16 (default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature 
+will be removed from ansible-core in version 2.12. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:07:44,442 p=2830 u=ec2-user n=ansible | 34.201.31.148 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 17:08:42,595 p=2854 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. 
+Current version: 3.7.16 (default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature 
+will be removed from ansible-core in version 2.12. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:08:43,792 p=2854 u=ec2-user n=ansible | 3.82.226.125 | CHANGED | rc=0 >>
+Sun May 21 17:08:43 UTC 2023
+
+2023-05-21 17:08:43,807 p=2854 u=ec2-user n=ansible | 34.201.31.148 | CHANGED | rc=0 >>
+Sun May 21 17:08:43 UTC 2023
+
+2023-05-21 17:23:03,522 p=319 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:23:04,595 p=319 u=ec2-user n=ansible | 3.82.226.125 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 17:23:04,696 p=319 u=ec2-user n=ansible | 34.201.31.148 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 17:36:47,560 p=685 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:36:47,990 p=685 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/ec2-user/play.yml': line 22, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    - name: read the output
+    debug:
+    ^ here
+
+2023-05-21 17:39:26,029 p=725 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:39:26,448 p=725 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/ec2-user/play.yml': line 23, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      debug:
+     var: output
+     ^ here
+
+2023-05-21 17:39:50,512 p=760 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:39:51,075 p=760 u=ec2-user n=ansible | PLAY [devserver] ***************************************************************************************************************************
+2023-05-21 17:39:51,092 p=760 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************************************************************************
+2023-05-21 17:39:53,766 p=760 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:39:53,793 p=760 u=ec2-user n=ansible | TASK [Creating user] ***********************************************************************************************************************
+2023-05-21 17:39:54,540 p=760 u=ec2-user n=ansible | changed: [3.82.226.125]
+2023-05-21 17:39:54,553 p=760 u=ec2-user n=ansible | TASK [create file] *************************************************************************************************************************
+2023-05-21 17:39:54,956 p=760 u=ec2-user n=ansible | changed: [3.82.226.125]
+2023-05-21 17:39:54,969 p=760 u=ec2-user n=ansible | TASK [read the output] *********************************************************************************************************************
+2023-05-21 17:39:55,037 p=760 u=ec2-user n=ansible | ok: [3.82.226.125] => {
+    "output": {
+        "changed": true,
+        "dest": "/tmp/ansible.txt",
+        "diff": {
+            "after": {
+                "atime": 1684690794.921286,
+                "mode": "0600",
+                "mtime": 1684690794.921286,
+                "path": "/tmp/ansible.txt",
+                "state": "touch"
+            },
+            "before": {
+                "atime": 1684690794.9169123,
+                "mode": "0644",
+                "mtime": 1684690794.9169123,
+                "path": "/tmp/ansible.txt",
+                "state": "absent"
+            }
+        },
+        "failed": false,
+        "gid": 0,
+        "group": "root",
+        "mode": "0600",
+        "owner": "root",
+        "size": 0,
+        "state": "file",
+        "uid": 0
+    }
+}
+2023-05-21 17:39:55,054 p=760 u=ec2-user n=ansible | TASK [Create directory] ********************************************************************************************************************
+2023-05-21 17:39:55,377 p=760 u=ec2-user n=ansible | changed: [3.82.226.125]
+2023-05-21 17:39:55,391 p=760 u=ec2-user n=ansible | TASK [install apache] **********************************************************************************************************************
+2023-05-21 17:39:59,846 p=760 u=ec2-user n=ansible | changed: [3.82.226.125]
+2023-05-21 17:39:59,859 p=760 u=ec2-user n=ansible | TASK [install finger] **********************************************************************************************************************
+2023-05-21 17:40:08,458 p=760 u=ec2-user n=ansible | changed: [3.82.226.125] => (item=wget)
+2023-05-21 17:40:09,965 p=760 u=ec2-user n=ansible | ok: [3.82.226.125] => (item=samba)
+2023-05-21 17:40:15,092 p=760 u=ec2-user n=ansible | ok: [3.82.226.125] => (item=java-8*)
+2023-05-21 17:40:15,961 p=760 u=ec2-user n=ansible | ok: [3.82.226.125] => (item=finger)
+2023-05-21 17:40:15,988 p=760 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 17:40:15,988 p=760 u=ec2-user n=ansible | 3.82.226.125               : ok=7    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-21 17:51:44,741 p=1139 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:51:45,248 p=1139 u=ec2-user n=ansible | PLAY [devserver] ***************************************************************************************************************************
+2023-05-21 17:51:45,263 p=1139 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************************************************************************
+2023-05-21 17:51:47,264 p=1139 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:51:47,287 p=1139 u=ec2-user n=ansible | TASK [Create directory] ********************************************************************************************************************
+2023-05-21 17:51:47,753 p=1139 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:51:47,779 p=1139 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 17:51:47,780 p=1139 u=ec2-user n=ansible | 3.82.226.125               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-21 17:52:05,491 p=1241 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:52:06,068 p=1241 u=ec2-user n=ansible | PLAY [devserver] ***************************************************************************************************************************
+2023-05-21 17:52:06,085 p=1241 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************************************************************************
+2023-05-21 17:52:07,938 p=1241 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:52:07,960 p=1241 u=ec2-user n=ansible | TASK [Create directory] ********************************************************************************************************************
+2023-05-21 17:52:08,566 p=1241 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:52:08,589 p=1241 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 17:52:08,590 p=1241 u=ec2-user n=ansible | 3.82.226.125               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-21 17:53:53,881 p=1419 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:54:12,675 p=1419 u=ec2-user n=ansible | Encryption successful
+2023-05-21 17:55:39,219 p=1511 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:55:39,602 p=1511 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with auto plugin: Attempting to decrypt but no vault secrets found
+
+2023-05-21 17:55:39,602 p=1511 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with yaml plugin: Attempting to decrypt but no vault secrets found
+
+2023-05-21 17:55:39,603 p=1511 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with ini plugin: Attempting to decrypt but no vault secrets found
+
+2023-05-21 17:55:39,603 p=1511 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/inv.yml as an inventory source
+
+2023-05-21 17:55:39,603 p=1511 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-21 17:55:39,612 p=1511 u=ec2-user n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-05-21 17:55:39,776 p=1511 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: devserver
+
+2023-05-21 17:55:39,778 p=1511 u=ec2-user n=ansible | PLAY [devserver] ***************************************************************************************************************************
+2023-05-21 17:55:39,778 p=1511 u=ec2-user n=ansible | skipping: no hosts matched
+2023-05-21 17:55:39,778 p=1511 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 17:56:59,268 p=1639 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:57:10,752 p=1639 u=ec2-user n=ansible | PLAY [devserver] ***************************************************************************************************************************
+2023-05-21 17:57:10,767 p=1639 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************************************************************************
+2023-05-21 17:57:12,809 p=1639 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:57:12,852 p=1639 u=ec2-user n=ansible | TASK [Create directory] ********************************************************************************************************************
+2023-05-21 17:57:13,380 p=1639 u=ec2-user n=ansible | ok: [3.82.226.125]
+2023-05-21 17:57:13,405 p=1639 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 17:57:13,406 p=1639 u=ec2-user n=ansible | 3.82.226.125               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-21 17:59:03,084 p=1833 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 17:59:07,409 p=1833 u=ec2-user n=ansible | Decryption successful
+2023-05-21 18:01:43,603 p=1978 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 18:01:51,430 p=1978 u=ec2-user n=ansible | Encryption successful
+2023-05-21 18:02:10,691 p=2064 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 18:04:01,577 p=2185 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 18:04:06,219 p=2185 u=ec2-user n=ansible | Decryption successful
+2023-05-21 19:48:08,627 p=3485 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 19:48:09,735 p=3485 u=ec2-user n=ansible | 3.82.226.125 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 19:48:09,830 p=3485 u=ec2-user n=ansible | 34.201.31.148 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-21 20:43:16,752 p=5102 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 20:43:17,221 p=5102 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unexpected end of stream
+
+The error appears to be in '/home/ec2-user/roles/apache/tasks/main.yml': line 13, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    dest: "{{ dest_folder }}""
+    remote-src: no
+^ here
+
+2023-05-21 20:44:04,687 p=5210 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 20:44:05,231 p=5210 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unexpected end of stream
+
+The error appears to be in '/home/ec2-user/roles/apache/tasks/main.yml': line 13, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    dest: "{{ dest_folder }}""
+    remote_src: no
+^ here
+
+2023-05-21 20:46:18,219 p=5254 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 20:46:18,696 p=5254 u=ec2-user n=ansible | PLAY [qaserver] ****************************************************************************************************************************
+2023-05-21 20:46:18,711 p=5254 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************************************************************************
+2023-05-21 20:46:21,460 p=5254 u=ec2-user n=ansible | ok: [34.201.31.148]
+2023-05-21 20:46:21,485 p=5254 u=ec2-user n=ansible | TASK [apache : Install Apache] *************************************************************************************************************
+2023-05-21 20:46:23,402 p=5254 u=ec2-user n=ansible | changed: [34.201.31.148]
+2023-05-21 20:46:23,488 p=5254 u=ec2-user n=ansible | TASK [apache : copy index file] ************************************************************************************************************
+2023-05-21 20:46:23,963 p=5254 u=ec2-user n=ansible | changed: [34.201.31.148]
+2023-05-21 20:46:23,989 p=5254 u=ec2-user n=ansible | RUNNING HANDLER [apache : restart apache] **************************************************************************************************
+2023-05-21 20:46:24,646 p=5254 u=ec2-user n=ansible | fatal: [34.201.31.148]: FAILED! => {"changed": false, "msg": "Could not find the requested service httpd: host"}
+2023-05-21 20:46:24,647 p=5254 u=ec2-user n=ansible | NO MORE HOSTS LEFT *************************************************************************************************************************
+2023-05-21 20:46:24,648 p=5254 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 20:46:24,649 p=5254 u=ec2-user n=ansible | 34.201.31.148              : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-21 20:47:05,788 p=5366 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 20:47:06,455 p=5366 u=ec2-user n=ansible | PLAY [qaserver] ****************************************************************************************************************************
+2023-05-21 20:47:06,480 p=5366 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************************************************************************
+2023-05-21 20:47:08,461 p=5366 u=ec2-user n=ansible | ok: [34.201.31.148]
+2023-05-21 20:47:08,483 p=5366 u=ec2-user n=ansible | TASK [apache : Install Apache] *************************************************************************************************************
+2023-05-21 20:47:13,190 p=5366 u=ec2-user n=ansible | changed: [34.201.31.148]
+2023-05-21 20:47:13,204 p=5366 u=ec2-user n=ansible | TASK [apache : copy index file] ************************************************************************************************************
+2023-05-21 20:47:14,638 p=5366 u=ec2-user n=ansible | changed: [34.201.31.148]
+2023-05-21 20:47:14,662 p=5366 u=ec2-user n=ansible | RUNNING HANDLER [apache : restart apache] **************************************************************************************************
+2023-05-21 20:47:15,719 p=5366 u=ec2-user n=ansible | changed: [34.201.31.148]
+2023-05-21 20:47:15,732 p=5366 u=ec2-user n=ansible | PLAY RECAP *********************************************************************************************************************************
+2023-05-21 20:47:15,733 p=5366 u=ec2-user n=ansible | 34.201.31.148              : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-21 20:54:28,210 p=5577 u=ec2-user n=ansible | [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller starting with Ansible 2.12. Current version: 3.7.16 
+(default, Mar 10 2023, 03:25:26) [GCC 7.3.1 20180712 (Red Hat 7.3.1-15)]. This feature will be removed from ansible-core in version 2.12. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2023-05-21 20:54:28,757 p=5577 u=ec2-user n=ansible | Starting galaxy role install process
+2023-05-21 20:54:28,758 p=5577 u=ec2-user n=ansible | - downloading role 'java', owned by geerlingguy
+2023-05-21 20:54:28,956 p=5577 u=ec2-user n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-java/archive/2.3.0.tar.gz
+2023-05-21 20:54:29,015 p=5577 u=ec2-user n=ansible | - extracting geerlingguy.java to /home/ec2-user/roles/geerlingguy.java
+2023-05-21 20:54:29,033 p=5577 u=ec2-user n=ansible | - geerlingguy.java (2.3.0) was installed successfully

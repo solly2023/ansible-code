@@ -1,0 +1,42 @@
+---
+- hosts: devserver
+  become: yes
+  ignore_errors: yes
+  vars:
+    pkg_name: httpd
+    username: solly
+  tasks:
+    - name: Creating user
+      user:
+        name: "{{ username }}"
+        comment: Solly Admin
+        shell: /bin/bash
+           #when: ansible_os_family in "RedHat"
+    - name: create file
+      file:
+        path: /tmp/ansible.txt
+        state: touch
+        mode: '0600'
+      register: output
+    - name: read the output
+      debug:
+       msg: "Hello from ansible this is running on {{ ansible_os_family }}"
+    - name: Create directory
+      file:
+        path: /tmp/dir
+        state: directory
+        mode: '0777'
+    - name: install apache
+      yum:
+        name: "{{ pkg_name }}"
+        state: present
+
+    - name: install finger
+      package:
+       name: finger
+       state: present
+      with_items:
+        - wget
+        - samba
+        - java-8*
+        - finger   

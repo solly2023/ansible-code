@@ -1,0 +1,12 @@
+ .bash_profile
+        .bashrc
+        .cache/
+        .local/
+        .play.yml.swp
+        .ssh/
+        .viminfo
+        .vscode-server/
+        keypair.pem
+        .gitignore
+        .ansible
+        ansible.log
